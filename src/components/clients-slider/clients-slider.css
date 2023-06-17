@@ -1,0 +1,11 @@
+.my-clients{
+    padding: 6rem 8% 2rem;
+  }
+
+.slider-clients{
+    cursor: grab;
+}
+
+.slider-clients div{
+    user-select: none;
+}

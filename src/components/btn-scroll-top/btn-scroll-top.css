@@ -1,0 +1,36 @@
+.btn-scroll-top{
+    position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    transition: background-color .5s,opacity .5s,visibility .5s;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn-scroll-top-inactive{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    transition: background-color .5s,opacity .5s,visibility .5s;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}

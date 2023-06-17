@@ -1,0 +1,150 @@
+.header{
+    background-color: #e7e7e7;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8rem 8% 0rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .header-content{
+    position: relative;
+    z-index: 1;
+    width: auto;
+  }
+  
+  .header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/eduardo-img.png');
+    background-size: auto 90%;
+    background-position: right 20% bottom 0;
+    background-repeat: no-repeat;
+  }
+
+  .header-content h1{
+    font-size: calc(1.275rem + 3.3vw);
+    line-height: 1; 
+    font-weight: 600;
+  }
+  
+  .header-content h2{
+    font-weight: 300;
+    font-size: calc(1.075rem + 1.5vw);
+  }
+  
+  .header-content button{
+    margin-top: 1.5rem;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    background-color: #009e66;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .header-content a{
+    color: white;
+  }
+  
+  .header-content button:hover{
+    background-color: #005235;
+  }
+  
+  .header-info{
+    margin-top: 100px;
+    display: flex;
+    white-space: nowrap;
+  }
+  
+  .header-single-info:not(:first-child){
+    padding: 0 2rem 0;
+  }
+  
+  .header-single-info h4{
+    font-weight: 500;
+    font-size: 19px;
+    
+  }
+  
+  .header-single-info p{
+    line-height: 2.5;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6c6c6c;
+    
+  }
+  
+  .header-single-info:first-child{
+    padding-right: 2rem;
+  }
+
+  .header-single-info:not(:first-child){
+    border-left: 1px solid black;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .header-bg {
+      background-position: right -20% bottom 0;
+    }
+  }
+
+  @media screen and (max-width: 968px) {
+    .header-bg {
+      background-position: right -30% bottom 0;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .header-bg {
+      background-position: right -40% bottom 0;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .header-bg {
+      background-position: right -60% bottom 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-info{
+      margin-top: 3rem;
+      display: block;
+    }
+
+    .header-single-info{
+      margin-bottom: 2rem;
+    }
+
+    .header-single-info:first-child{
+      border-left: 1px solid black;
+      padding-left: 2rem;
+    }
+
+    .header-bg {
+      background-position: right -20% bottom;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .header-bg {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .header-content button{  
+      font-size: 16px;
+    }  
+  }
+
+
+  

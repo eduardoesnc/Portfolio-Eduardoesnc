@@ -1,0 +1,32 @@
+.background-lines{
+    background-color: #ffffff;
+    position: fixed;
+        top: 0;
+        left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -99;    
+    display: flex;
+}
+
+.background-line{
+    width: 24.5%;
+    height: 100%;
+    border-right: 1px solid #ebebeb;
+}
+
+.background-lineFL{
+    width: 19%;
+    height: 100%;
+    border-right: 1px solid #ebebeb;
+}
+
+@media screen and (max-width: 768px) {
+    .background-lineFL{
+        width: 0%;
+    }
+
+    .background-line{
+        width: 33%;
+    }
+}

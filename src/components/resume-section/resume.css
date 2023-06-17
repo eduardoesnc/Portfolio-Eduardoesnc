@@ -1,0 +1,96 @@
+.resume{
+    padding: 6rem 8% 2rem;
+  }
+  
+  .section-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+  }
+  
+  .cards-resume{
+    width: 47%;
+  }
+  
+  .title-cards-resume{
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    
+  }
+  
+  .card-resume{
+    background-color: white;
+    border-left: 2px solid #009e66;
+    padding: 20px 48px 28px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0/5%);
+  }
+  
+  .cards-resume .card-resume{
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-resume:last-child{
+    border-bottom: 0;
+  }
+  
+  .card-resume h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 9px;
+  }
+  
+  .cards-resume .card-resume .item-arrow{
+    position: relative;
+    left: -48px;
+    top: 18px;
+    display: flex;
+    height: 16px;
+    width: 16px;
+    background-color: #009e66;
+    content: "";
+  }
+  
+  .cards-resume .card-resume .item-arrow::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #009e66;
+  }
+  
+  .card-resume-details{
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: #777;
+    line-height: 1.95;
+  }
+  
+  .card-resume-description{
+    font-size: 15px;
+    color: #777;
+    line-height: 1.95;
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .section-card{
+      flex-wrap: wrap;
+    }
+
+    .cards-resume{
+      width: 100%;
+    }
+
+    .cards-resume:last-child{
+      margin-top: 2rem;
+    }
+  }

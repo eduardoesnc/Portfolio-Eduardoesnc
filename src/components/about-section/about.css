@@ -1,0 +1,136 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 8% 2rem;
+  }
+  
+  .about-img{
+    width: 37%;
+  }
+  
+  .about-img img{
+    width: 100%;
+  }
+  
+  .about-content{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-content h3{
+    color: #009e66;
+    font-size: 24px;  
+    font-weight: 600;
+  }
+  
+  .about-content h2{
+    color: black;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1.6em;
+  }
+  
+  .about-content p{
+    color: #777777;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.95;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  
+  .horizontal-divisor{
+    border-top: 2px solid #9F9F9F5C;
+  }
+  
+  .about-info-containers{
+    display: flex;
+  }
+  
+  .about-info-line{
+    width: 50%;
+  }
+  
+  .about-info-line span{
+    color: black;
+    margin-right: 1rem
+  }
+
+  .button-wrapper{
+    margin-top: 15px;
+  }
+  
+  .about-content a{
+    color: #FFFFFF;
+    background-color: #009e66;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 35px;
+    line-height: 1.5em;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .about-content a:hover{
+    filter: brightness(1.2);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .about{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .about-content{
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+    .about-img{
+      width: 100%;
+      text-align: center;
+    }
+
+    .about-img img{
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .about-content a{
+      padding: 10px 40px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-info-line {
+      width: 100%;
+    }
+
+    .about-info-containers{
+      display: block;
+    }
+
+    .about-info-line{
+      width: 100%;
+    }
+
+    .about-info-line p{
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
