@@ -14,7 +14,7 @@ function NavMenu({acao}){
         <div className={ acao ? 'nav-active' : 'nav'}>
             <div className='nav-elements'>
                 <div className="nav-logo">
-                    <p>LOGO</p>
+                    <p>ESNC</p>
                 </div>
 
                 <div className="nav-links">
