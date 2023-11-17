@@ -47,7 +47,7 @@ export function Resume(){
               <span className='item-arrow'></span>
               <h5>Analista de Projetos</h5>
               <p className='card-resume-details'>Seed a Bit Tecnologia / 2023 - Atualmente</p>
-              <p className='card-resume-description'>Voluntariamente participo da Empresa Júnior da UFRPE, onde atuo como Analista de Projetos. Nessa posição, colaboro ativamente para aprimorar minhas Soft e Hard Skills, enquanto mergulho em um ambiente empresarial desafiador e enriquecedor.</p>
+              <p className='card-resume-description'>Voluntariamente participo da Empresa Júnior de tecnologia da UFRPE, onde atuo como Analista de Projetos. Nessa posição, colaboro ativamente para aprimorar minhas Soft e Hard Skills, enquanto mergulho em um ambiente empresarial desafiador e enriquecedor.</p>
             </div>
 
             <div className='card-resume'>
