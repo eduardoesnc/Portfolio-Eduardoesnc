@@ -19,9 +19,9 @@ export function Resume(){
 
             <div className='card-resume'>
               <span className='item-arrow'></span>
-              <h5>Técnico em Desenvolvimento de Sistemas</h5>
-              <p className='card-resume-details'>ETE Advogado José David Gil Rodrigues / 2018 - 2020</p>
-              <p className='card-resume-description'>Onde comecei meus estudos em programação e consegui realizar um intercâmbio para Bournemouth and Poole College.</p>
+              <h5>Bacharelado em Sistemas de Informação</h5>
+              <p className='card-resume-details'>Univesidade Federal Rural de Pernambuco / 2021 - Atualmente</p>
+              <p className='card-resume-description'>Atualmente curso Sistemas de Informação e minhas principais áreas de interesse estão sendo Ciência de Dados e Inteligência Artificial.</p>
             </div>
 
             <div className='card-resume'>
@@ -33,15 +33,22 @@ export function Resume(){
 
             <div className='card-resume'>
               <span className='item-arrow'></span>
-              <h5>Bacharelado em Sistemas de Informação</h5>
-              <p className='card-resume-details'>Univesidade Federal Rural de Pernambuco / 2022 - Atualmente</p>
-              <p className='card-resume-description'>Atualmente curso Sistemas de Informação e minhas principais áreas de interesse estão sendo Ciência de Dados e Inteligência Artificial.</p>
+              <h5>Técnico em Desenvolvimento de Sistemas</h5>
+              <p className='card-resume-details'>ETE Advogado José David Gil Rodrigues / 2018 - 2020</p>
+              <p className='card-resume-description'>Onde comecei meus estudos em programação e consegui realizar um intercâmbio para Bournemouth and Poole College, no Reino Unido.</p>
             </div>
 
           </div>
 
           <div className='cards-resume'>
             <p className='title-cards-resume'>Experiência</p>
+
+            <div className='card-resume'>
+              <span className='item-arrow'></span>
+              <h5>Analista de Projetos</h5>
+              <p className='card-resume-details'>Seed a Bit Tecnologia / 2023 - Atualmente</p>
+              <p className='card-resume-description'>Voluntariamente participo da Empresa Júnior da UFRPE, onde atuo como Analista de Projetos. Nessa posição, colaboro ativamente para aprimorar minhas Soft e Hard Skills, enquanto mergulho em um ambiente empresarial desafiador e enriquecedor.</p>
+            </div>
 
             <div className='card-resume'>
               <span className='item-arrow'></span>

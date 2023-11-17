@@ -29,6 +29,7 @@ export function Contact(){
       emailJs.send("service_57twyjo", "template_gye68it", templateParams, "1vg9rpe0JEvIIszXJ")
       .then((response) => {
         console.log("Email Enviado", response.status, response.text)
+        alert("Email enviado com sucesso. Obrigado por entrar em contato!")
         setName('')
         setEmail('')
         setSubject('')

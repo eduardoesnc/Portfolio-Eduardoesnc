@@ -31,7 +31,7 @@ export function Header(){
           <div className='header-content'>
             <h2>Olá!</h2>
             <h1>Eu sou <span ref={el}></span></h1>
-            <h2>Eu simplifico o complexo.</h2>
+            <h2>Dando vida às suas ideias</h2>
             <button><a href="#contact">Entre em Contato</a></button>
           
 

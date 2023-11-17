@@ -1,5 +1,5 @@
 import React from "react";
-import { FacebookFilled, GithubOutlined, InstagramOutlined, LinkedinFilled, WhatsAppOutlined } from '@ant-design/icons';
+import {GithubOutlined, InstagramOutlined, LinkedinFilled, WhatsAppOutlined } from '@ant-design/icons';
 
 import './social-links.css';
 
