@@ -16,7 +16,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Imersão Marca Própria',
         imgUrl: imersaoMP,
-        description: 'Durante o desenvolvimento da Landing Page do evento "Imersão Marca Própria", participei exclusivamente da responsividade do site, garantindo uma experiência consistente e atraente para os usuários em diferentes dispositivos e tamanhos de tela. Fui responsável por adaptar parte do design e das funcionalidades do site, assegurando que todas as informações e elementos gráficos fossem apresentados de forma otimizada em smartphones, tablets e desktops. Por meio de testes rigorosos em diferentes dispositivos e resoluções, pude identificar e corrigir quaisquer problemas de usabilidade, garantindo que todos os visitantes tivessem acesso às informações do evento de forma clara e sem obstáculos.',
+        description: 'Durante o desenvolvimento da Landing Page do evento "Imersão Marca Própria", participei integralmente na responsividade do site, garantindo uma experiência consistente e atraente para os usuários em diferentes dispositivos e tamanhos de tela. Fui responsável por adaptar parte do design e das funcionalidades do site, assegurando que todas as informações e elementos gráficos fossem apresentados de forma otimizada em smartphones, tablets e desktops. Por meio de testes rigorosos em diferentes dispositivos e resoluções, pude identificar e corrigir quaisquer problemas de usabilidade, garantindo que todos os visitantes tivessem acesso às informações do evento de forma clara e sem obstáculos.',
         icon: FaDesktop,
         pjtUrl: 'https://imersaomarcapropria.com.br',
         techUsed: 'Wordpress.'
