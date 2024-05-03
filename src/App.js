@@ -15,6 +15,7 @@ import { Footer } from "./components/footer/footer";
 import { Contact } from './components/contact-section/contact';
 import { Services } from './components/services-section/services';
 import { BtnScrollTop } from './components/btn-scroll-top/btn-scroll-top';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
 
   return (
     <div className="App">
+
+      <SpeedInsights/>
 
       <BackgroundLines/>
 
