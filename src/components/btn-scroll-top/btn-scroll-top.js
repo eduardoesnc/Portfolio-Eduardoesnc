@@ -5,15 +5,15 @@ import './btn-scroll-top.css';
 
 export function BtnScrollTop({show}){
     
-    const scrollToTop = () =>{
-        window.scrollTo({
-          top: 0, 
-          behavior: 'smooth'
-        });
-      };
+    // const scrollToTop = () =>{
+    //     window.scrollTo({
+    //       top: 0, 
+    //       behavior: 'smooth'
+    //     });
+    //   };
 
     return (
-    <a onClick={scrollToTop} className={show ? "btn-scroll-top" : "btn-scroll-top-inactive"}>
+    <a href="#header" className={show ? "btn-scroll-top" : "btn-scroll-top-inactive"}>
         <IoIosArrowUp/>
     </a>
     );

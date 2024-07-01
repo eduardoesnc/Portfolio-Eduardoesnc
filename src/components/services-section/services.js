@@ -1,8 +1,9 @@
 import React from "react";
 import './services.css';
 
-import { FaDesktop, FaCogs, FaChartBar, FaHeadset, FaMobileAlt } from "react-icons/fa";
+import { FaDesktop, FaCogs, FaChartBar, FaMobileAlt } from "react-icons/fa";
 import { GiBrain } from "react-icons/gi";
+import { MdDesignServices } from "react-icons/md";
 
 
 export function Services(){
@@ -32,15 +33,15 @@ export function Services(){
                     <p>Desenvolvo aplicativos móveis personalizados, com foco na usabilidade e design elegante.</p>
                     </div>
                 </div>
-                
+
                 <div className='col-services'>
                     <div className='card-services'>
-                    <i><GiBrain /></i>
-                    <h6>Machine Learning</h6>
-                    <p>Utilizo técnicas avançadas de ML para desenvolver modelos preditivos e soluções inteligentes.</p>
+                    <i><MdDesignServices /></i>
+                    <h6>Design</h6>
+                    <p>Crio designs atraentes e funcionais, focados na experiência do usuário e na identidade visual da marca.</p>
                     </div>
                 </div>
-                
+
                 <div className='col-services'>
                     <div className='card-services'>
                     <i><FaCogs /></i>
@@ -51,17 +52,17 @@ export function Services(){
 
                 <div className='col-services'>
                     <div className='card-services'>
-                    <i><FaHeadset /></i>
-                    <h6>Suporte ao cliente</h6>
-                    <p>Suporte dedicado e resolução ágil de problemas técnicos com foco na satisfação do cliente.</p>
+                    <i><FaChartBar /></i>
+                    <h6>Análise de Dados</h6>
+                    <p>Análises de dados detalhadas para extrair insights valiosos e apoiar a tomada de decisões estratégicas.</p>
                     </div>
                 </div>
-
+                
                 <div className='col-services'>
                     <div className='card-services'>
-                    <i><FaChartBar /></i>
-                    <h6>Marketing Digital</h6>
-                    <p>Estratégias personalizadas de marketing digital com SEO, mídias sociais e publicidade online.</p>
+                    <i><GiBrain /></i>
+                    <h6>Machine Learning</h6>
+                    <p>Utilizo técnicas avançadas de ML para desenvolver modelos preditivos e soluções inteligentes.</p>
                     </div>
                 </div>
             

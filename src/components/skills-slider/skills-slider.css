@@ -27,13 +27,17 @@
     width: 25%;
     text-align: center;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .skills-wrapper div i{
     color: #009e66;
     font-size: 60px;
-    line-height: 0;
-    
+    line-height: 0;    
+}
+
+.skills-wrapper div i:hover{
+    filter: brightness(1.1);
 }
 
 .skills-wrapper div p{
@@ -41,6 +45,12 @@
     color: #777;
     font-size: 15px;
 }
+
+.tooltip{
+    font-size: 12px;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 768px) {
     .skills-wrapper div{

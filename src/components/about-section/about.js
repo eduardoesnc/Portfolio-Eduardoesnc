@@ -27,7 +27,7 @@ export function QuemSou(){
 
                     <div className='about-info-line'>
                     <p><span>Nome:</span>Eduardo Estevão</p>
-                    <p><span>Idade:</span> 20</p>
+                    <p><span>Idade:</span> 21</p>
                     </div>
 
                     <div className='about-info-line'>
@@ -36,7 +36,7 @@ export function QuemSou(){
                     </div>
                 </div>
                 <div className="button-wrapper">
-                    <a href="https://drive.google.com/file/d/1YeM_zZ1ubiN42azMK6nBXB0JkBBecuUt/view?usp=sharing" target="__blank">Baixar CV</a>
+                    <a href="https://drive.google.com/file/d/1uIm6FGV0KzfbiQtb65sWZA5cY4yZ3oOD/view?usp=sharing" target="__blank">Baixar CV</a>
                 </div>
             </div>
 

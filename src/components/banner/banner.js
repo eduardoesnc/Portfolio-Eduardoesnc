@@ -22,7 +22,7 @@ export function Banner(){
 
                 <div className='banner-part'>
                     <div className='banner-part-content'>
-                    <p>20<span>+</span></p>
+                    <p>15<span>+</span></p>
                     </div>
                 </div>
 

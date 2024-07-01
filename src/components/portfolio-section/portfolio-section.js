@@ -93,9 +93,9 @@ export function PortfolioSection(){
             </p>
 
             <p 
-                style={isPortfolioSelected('Machine Learning')} 
-                onClick={() => setPortfolioSel('Machine Learning')}>
-                Machine Learning
+                style={isPortfolioSelected('Dados')} 
+                onClick={() => setPortfolioSel('Dados')}>
+                Dados
             </p>
         </div>
 
@@ -122,13 +122,13 @@ export function PortfolioSection(){
         </div>
 
         {/* <div className='portfolio-button'>
-        <a>
-            <span className='span-wrapper'>
-            <span>All Portfolio </span>
-            <span className='icon-button'><FaArrowRight/></span>
-            </span>
-            
-        </a>
+            <a>
+                <span className='span-wrapper'>
+                <span>All Portfolio </span>
+                <span className='icon-button'><FaArrowRight/></span>
+                </span>
+                
+            </a>
         </div> */}
 
         {selectedProject && <Modal project={selectedProject} closeModal={closeModal} />}
