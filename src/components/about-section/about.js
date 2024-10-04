@@ -39,7 +39,7 @@ export function QuemSou(){
                     </div>
                 </div>
                 <div className="button-wrapper">
-                    <a href="https://drive.google.com/file/d/1uIm6FGV0KzfbiQtb65sWZA5cY4yZ3oOD/view?usp=sharing" target="__blank">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1w5ZjalU7oLrdfzPLMeA6dfgBjaxi2Ptc/view?usp=sharing" target="__blank">Download CV</a>
                 </div>
             </div>
 
