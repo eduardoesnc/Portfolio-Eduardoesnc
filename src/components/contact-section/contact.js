@@ -46,30 +46,30 @@ export function Contact(){
 
         <div className='section-heading'>
             <h2 className='section-title'>
-              Entre em Contato
-              <span class="title-bg">Contato</span>
+              Get in Touch
+              <span class="title-bg">Contact</span>
             </h2>
         </div>
 
         <div className='contact-container'>
           <div className='message-form'>
             <div className='contact-container-heading'>
-              <h4>Envie-me uma mensagem</h4>
+              <h4>Send Me a Message</h4>
             </div>
 
             <form onSubmit={handleSubmit}>
-              <input className='f-inputs' type='text' name='name' placeholder='Nome' value={name} onChange={(e) => setName(e.target.value)}></input>
+              <input className='f-inputs' type='text' name='name' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)}></input>
               <input className='f-inputs' type='text' name='email' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}></input>
-              <input type='text' name='subject' placeholder='Assunto' value={subject} onChange={(e) => setSubject(e.target.value)}></input>
-              <textarea name='message' placeholder='Mensagem' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-              <input type='submit' name='submit' value={'Enviar Mensagem'}></input>
+              <input type='text' name='subject' placeholder='Subject' value={subject} onChange={(e) => setSubject(e.target.value)}></input>
+              <textarea name='message' placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+              <input type='submit' name='submit' value={'Send it!'}></input>
             </form>
 
           </div>
           <div className='contact-info-container'>
             <div className='contact-container-heading'>
-              <h4>Dados de contato</h4>
-              <p>Sempre disponível para trabalhos, caso o projeto certo apareça. Sinta-se à vontade para entrar em contato comigo!</p>
+              <h4>Contact Information</h4>
+              <p>I'm ready for new challenges and open to interesting projects. Contact me if you'd like to discuss further!</p>
             </div>
 
             <div className='contact-container-infos'>
@@ -79,7 +79,7 @@ export function Contact(){
                   <FaUserAlt className='icon'/>
                 </div>
                 <div className='contact-info'>
-                  <h6>Nome</h6>
+                  <h6>Name</h6>
                   <span>Eduardo Estevão</span>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export function Contact(){
                   <FaMapMarkedAlt className='icon'/>
                 </div>
                 <div className='contact-info'>
-                  <h6>Localização</h6>
+                  <h6>Location</h6>
                   <span>Recife, Pernambuco, BR</span>
                 </div>
               </div>
@@ -99,7 +99,7 @@ export function Contact(){
                   <FaPhoneAlt className='icon'/>
                 </div>
                 <div className='contact-info'>
-                  <h6>Me ligue</h6>
+                  <h6>Call me</h6>
                   <span><a href="tel:+5581997688104">+55 (81) 9 9768-8104</a></span>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export function Contact(){
                   <FaPaperPlane className='icon'/>
                 </div>
                 <div className='contact-info'>
-                  <h6>Me envie um e-mail</h6>
+                  <h6>Send me an email</h6>
                   <span><a href="mailto:eduardoestevaonc@gmail.com">eduardoestevaonc@gmail.com</a></span>
                 </div>
               </div>

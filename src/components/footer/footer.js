@@ -7,7 +7,7 @@ export function Footer(){
     return (
         <footer className='footer'>
             <div className='footer-content'>
-            <p>Desenvolvido por Eduardoesnc</p>
+            <p>Developed by Eduardoesnc</p>
             </div>
         </footer>
     );

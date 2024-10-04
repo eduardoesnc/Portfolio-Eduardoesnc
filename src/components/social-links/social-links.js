@@ -8,7 +8,7 @@ export function SocialLinks(){
     return (
     <div>
         <div className='social-links'>
-            <p>Me Siga</p>
+            <p>Follow me</p>
             <div className='vertical-divisor-social-links'></div>
             <a href='https://www.instagram.com/eduardoesnc/' target="_blank" rel="noopener noreferrer"><InstagramOutlined /></a>
             <a href='https://github.com/eduardoesnc' target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>

@@ -52,8 +52,8 @@ export class ClientsSlider extends Component {
 
           <div className='section-heading'>
               <h2 className='section-title'>
-                Meus Clientes
-                <span class="title-bg">Clientes</span>
+                My Clients
+                <span class="title-bg">Clients</span>
               </h2>
           </div>
 

@@ -1,4 +1,4 @@
-import { FaDesktop, FaMobileAlt, FaChartBar} from "react-icons/fa";
+import { FaDesktop, FaMobileAlt} from "react-icons/fa";
 import { GiBrain } from "react-icons/gi";
 
 import carInsurance from '../../assets/portfolioImgs/carInsurance.jpg';
@@ -8,7 +8,7 @@ import ekosNoronha from '../../assets/portfolioImgs/ekosNoronha.jpg';
 import colinaPousadaSpa from '../../assets/portfolioImgs/colinaPousadaSpa.jpg';
 import imersaoMP from '../../assets/portfolioImgs/imersaoMP.jpg';
 import laferlins from '../../assets/portfolioImgs/laferlins.jpg';
-import cjr from '../../assets/portfolioImgs/cjr.jpg';
+// import cjr from '../../assets/portfolioImgs/cjr.jpg';
 import cint from '../../assets/portfolioImgs/cint.jpg';
 import hamares from '../../assets/portfolioImgs/hamares.jpg';
 import benetti from '../../assets/portfolioImgs/benetti.jpg';
@@ -18,7 +18,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Imersão Marca Própria 2022',
         imgUrl: imersaoMP,
-        description: 'Durante o desenvolvimento da Landing Page do evento "Imersão Marca Própria 2022", participei integralmente na responsividade do site, garantindo uma experiência consistente e atraente para os usuários em diferentes dispositivos e tamanhos de tela. Fui responsável por adaptar parte do design e das funcionalidades do site, assegurando que todas as informações e elementos gráficos fossem apresentados de forma otimizada em smartphones, tablets e desktops. Por meio de testes rigorosos em diferentes dispositivos e resoluções, pude identificar e corrigir quaisquer problemas de usabilidade, garantindo que todos os visitantes tivessem acesso às informações do evento de forma clara e sem obstáculos.',
+        description: 'During the development of the landing page for the "Private Label Immersion 2022" event, I was fully involved in ensuring the responsiveness of the site, guaranteeing a consistent and attractive experience for users across different devices and screen sizes. I was responsible for adapting part of the design and functionalities of the site, ensuring that all information and graphic elements were presented optimally on smartphones, tablets, and desktops. Through rigorous testing on different devices and resolutions, I was able to identify and fix any usability issues, ensuring that all visitors could access event information clearly and without obstacles.',
         icon: FaDesktop,
         pjtUrl: 'https://imersaomarcapropria.com.br',
         techUsed: 'Wordpress.'
@@ -27,7 +27,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Laferlins',
         imgUrl: laferlins,
-        description: 'No projeto para a Liferlins, tiver participação no desenvolvimento da versão em Inglês do site, onde pudemos transmitir com precisão os serviços de intermediação e monitoramento de contratos da empresa nos setores de algodão, açúcar, etanol e combustíveis. Através de uma abordagem meticulosa, colaboração efetiva com a equipe da Laferlins e garantia de qualidade, foi possível realizar uma tradução fluida que expandiu o alcance da Laferlins, permitindo que eles se conectassem ainda mais com um público internacional e fortalecessem sua presença global no mercado de commodities.',
+        description: 'In the project for Laferlins, I participated in developing the English version of the website, where we accurately conveyed the company’s services in contract mediation and monitoring in the cotton, sugar, ethanol, and fuel sectors. Through meticulous approach, effective collaboration with the Laferlins team, and quality assurance, we achieved a smooth translation that expanded Laferlins’ reach, enabling them to connect even more with an international audience and strengthen their global presence in the commodities market.',
         icon: FaDesktop,
         pjtUrl: 'https://laferlins.com.br/english/',
         techUsed: 'Wordpress.'
@@ -36,7 +36,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Benetti Interiores',
         imgUrl: benetti,
-        description: 'O desenvolvimento da vitrine online da Benetti Interiores foi uma oportunidade empolgante para destacar a sofisticação e a qualidade dos produtos oferecidos pela empresa. Com um design moderno e funcional, focamos em criar uma experiência de usuário envolvente e intuitiva. A plataforma é totalmente responsiva, permitindo uma navegação suave em qualquer dispositivo, e inclui recursos detalhados de visualização de produtos, facilitando aos clientes explorar a variedade de itens disponíveis. Além disso, criamos um blog integrado à plataforma, fornecendo conteúdo relevante e inspirador sobre design de interiores, dicas de decoração e as últimas tendências do mercado. Este recurso adicional não apenas enriquece a experiência do usuário, mas também posiciona a Benetti Interiores como uma autoridade no setor, engajando os visitantes e incentivando-os a retornar ao site.',
+        description: 'The development of the online showcase for Benetti Interiores was an exciting opportunity to highlight the sophistication and quality of the products offered by the company. With a modern and functional design, we focused on creating an engaging and intuitive user experience. The platform is fully responsive, allowing for smooth navigation on any device and includes detailed product viewing features, making it easy for customers to explore the variety of available items. Additionally, we created a blog integrated into the platform, providing relevant and inspiring content on interior design, decorating tips, and the latest market trends. This additional resource not only enriches the user experience but also positions Benetti Interiores as an authority in the sector, engaging visitors and encouraging them to return to the site.',
         icon: FaDesktop,
         pjtUrl: 'https://www.benettirecife.com.br',
         techUsed: 'Wordpress.'
@@ -54,7 +54,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Ekos Luxury Hotels',
         imgUrl: ekosNoronha,
-        description: 'O projeto do website do Grupo EKOS foi uma ótima oportunidade para mostrar a elegância de Fernando de Noronha. Com um design envolvente e sofisticado e o foco na funcionalidade e experiência do usuário, desenvolvemos um site responsivo e intuitivo, com recursos de reserva online e informações detalhadas sobre as deslumbrantes atrações e atividades oferecidas em Fernando de Noronha, proporcionando aos visitantes uma visão completa das maravilhas que aguardam sua visita. Trabalhando em parceria com a equipe do Grupo EKOS, conseguimos transmitir com precisão a exclusividade e o requinte das propriedades, resultando em uma plataforma que convida os visitantes a descobrirem a magia de Fernando de Noronha.',
+        description: 'The website project for the EKOS Group was a great opportunity to showcase the elegance of Fernando de Noronha. With an engaging and sophisticated design focusing on functionality and user experience, we developed a responsive and intuitive site, featuring online booking and detailed information about the stunning attractions and activities offered in Fernando de Noronha, providing visitors with a complete view of the wonders awaiting their visit. Working in partnership with the EKOS Group team, we accurately conveyed the exclusivity and refinement of the properties, resulting in a platform that invites visitors to discover the magic of Fernando de Noronha.',
         icon: FaDesktop,
         pjtUrl: 'https://noronha.com.br',
         techUsed: 'Wordpress.'
@@ -63,7 +63,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Hamares Boutique Hotel',
         imgUrl: hamares,
-        description: 'O projeto da Hamares Boutique Hotel foi uma excelente oportunidade para destacar a sofisticação e o charme desse exclusivo hotel. Com um design elegante e contemporâneo, focamos na criação de uma experiência de usuário intuitiva e agradável. Desenvolvemos um site responsivo que inclui recursos de reserva online e informações detalhadas sobre os serviços e comodidades oferecidos pelo hotel, proporcionando aos visitantes uma visão clara e atraente do que os aguarda na Hamares Boutique Hotel. Colaborando estreitamente com a equipe do hotel, conseguimos capturar e transmitir a essência da hospitalidade e do luxo que definem a Hamares, resultando em uma plataforma digital que convida os usuários a explorar e reservar sua estadia com facilidade e confiança.',
+        description: 'The Hamares Boutique Hotel project was an excellent opportunity to highlight the sophistication and charm of this exclusive hotel. With an elegant and contemporary design, we focused on creating an intuitive and enjoyable user experience. We developed a responsive site that includes online booking features and detailed information about the services and amenities offered by the hotel, providing visitors with a clear and attractive view of what awaits them at Hamares Boutique Hotel. By closely collaborating with the hotel team, we managed to capture and convey the essence of the hospitality and luxury that define Hamares, resulting in a digital platform that invites users to explore and book their stay with ease and confidence.',
         icon: FaDesktop,
         pjtUrl: 'https://hamares.com.br',
         techUsed: 'Wordpress.'
@@ -72,7 +72,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Colina Pousada Spa',
         imgUrl: colinaPousadaSpa,
-        description: 'Através do serviço de manutenções, tive a oportunidade de contribuir para o sucesso do website da Colina Pousada Spa, uma joia do grupo EKOS. Nesta emocionante jornada, trabalhamos diligentemente para garantir que a plataforma online refletisse a excelência e o luxo oferecidos pela pousada. Com atenção meticulosa aos detalhes, realizei aprimoramentos e ajustes contínuos, assegurando que o site estivesse sempre em perfeitas condições, proporcionando uma experiência de navegação suave e encantadora para os visitantes.',
+        description: 'Through maintenance services, I had the opportunity to contribute to the success of the Colina Pousada Spa website, a gem of the EKOS group. In this exciting journey, we worked diligently to ensure that the online platform reflected the excellence and luxury offered by the inn. With meticulous attention to detail, I carried out continuous enhancements and adjustments, ensuring that the site was always in perfect condition, providing a smooth and delightful browsing experience for visitors.',
         icon: FaDesktop,
         pjtUrl: 'https://pousadacolinanoronha.com.br',
         techUsed: 'Wordpress.'
@@ -81,7 +81,7 @@ const portfolioData = [
         type: 'Web',
         name: 'Charme Da Vila',
         imgUrl: charmeDaVila,
-        description: 'O projeto do website Charme da Vila foi uma jornada apaixonante, resultando em uma plataforma online envolvente e funcional. Com um design que combina elegância e rusticidade, o site transmite a atmosfera acolhedora da pousada. Utilizando o WordPress como base, implementamos, uma navegação intuitiva e uma estrutura que destaca cada aspecto da pousada. A parceria com a equipe do Charme da Vila foi fundamental para superar expectativas e criar um espaço virtual que convida os visitantes a descobrirem o encanto dessa pousada especial.',
+        description: 'The Charme da Vila website project was an exciting journey, resulting in an engaging and functional online platform. With a design that combines elegance and rusticity, the site conveys the cozy atmosphere of the inn. Using WordPress as a base, we implemented intuitive navigation and a structure that highlights every aspect of the inn. The partnership with the Charme da Vila team was crucial to exceed expectations and create a virtual space that invites visitors to discover the charm of this special inn.',
         icon: FaDesktop,
         pjtUrl: 'https://charmedavila.com.br',
         techUsed: 'Wordpress.'
@@ -90,7 +90,7 @@ const portfolioData = [
         type: 'Mobile',
         name: 'InsuranceTech',
         imgUrl: insurancetech,
-        description: 'Este projeto foi realizado durante a disciplina de Desenvolvimento de Sistemas de Informação na UFRPE. O objetivo central foi criar uma aplicação que utilizasse técnicas de Machine Learning, baseada em um dataset selecionado pela equipe. O aplicativo possui diversas funcionalidades, incluindo a previsão de possibilidade de reivindicação de seguro automotivo, um mapa interativo de sinistros, análises gráficas dos dados e a funcionalidade de upload de documentos necessários para a reivindicação do seguro. Essas características tornam o aplicativo útil tanto para seguradoras quanto para segurados, proporcionando uma experiência mais eficiente e conveniente.',
+        description: 'This project was conducted during the Information Systems Development course at UFRPE. The main goal was to create an application that utilized Machine Learning techniques, based on a dataset selected by the team. The app features various functionalities, including the prediction of the likelihood of automotive insurance claims, an interactive claims map, graphical data analysis, and the ability to upload necessary documents for insurance claims. These features make the application useful for both insurers and insured parties, providing a more efficient and convenient experience.',
         icon: FaMobileAlt,
         pjtUrl: 'https://github.com/eduardoesnc/InsuranceTech',
         techUsed: 'Dart, Flutter, Firebase.'
@@ -99,16 +99,16 @@ const portfolioData = [
         type: 'Mobile',
         name: 'Cint',
         imgUrl: cint,
-        description: 'Este projeto foi realizado durante a disciplina de Projetos para Sistemas de Informação III, nele foi desenvolvido uma aplicação inovadora para abordar a pobreza extrema e a falta de moradia e a ODS 11 da ONU, utilizando técnicas de design centradas no usuário. O aplicativo facilita a doação e a recepção de assistência com funcionalidades como gamificação, recomendação customizada de ONGs, oferta de produtos, metas de doação, parcerias com aplicativos de entrega, etc. A abordagem Human-Centered Design (HCD) permitiu compreender profundamente as necessidades das pessoas e organizações afetadas, resultando em soluções mais eficazes. O projeto identificou oportunidades de inovação e melhorias futuras, como o estudo do impacto das funcionalidades nas doações e um sistema de voluntariado. O aplicativo tem o potencial de transformar a assistência social, promovendo um ambiente mais acolhedor e digno para os necessitados, e oferece uma ferramenta poderosa para instituições dedicadas ao combate à pobreza.',
+        description: 'This project was conducted during the Information Systems Projects III course, where an innovative application was developed to address extreme poverty, homelessness, and the UN’s SDG 11, utilizing user-centered design techniques. The app facilitates the donation and reception of assistance with features such as gamification, customized NGO recommendations, product offerings, donation goals, partnerships with delivery apps, etc. The Human-Centered Design (HCD) approach allowed us to deeply understand the needs of affected individuals and organizations, resulting in more effective solutions. The project identified opportunities for innovation and future improvements, such as studying the impact of the features on donations and a volunteer system. The app has the potential to transform social assistance, fostering a more welcoming and dignified environment for those in need, and provides a powerful tool for institutions dedicated to combating poverty.',
         icon: FaMobileAlt,
         pjtUrl: 'https://github.com/gui-henri/cint',
         techUsed: 'Dart, Flutter, Supabase.'
     },
     {
         type: 'Dados',
-        name: 'Previsão de reivindicação de seguros automotivos',
+        name: 'Automotive Insurance Claim Prediction',
         imgUrl: carInsurance,
-        description: 'Este projeto foi desenvolvido como parte da disciplina de Projetos Interdisciplinares para Sistemas de Informação 3 na UFRPE. O objetivo principal deste projeto é criar um dashboard que permita explorar e analisar um conjunto de dados de clientes de uma seguradora de automóveis, e desenvolver um modelo de Machine Learning capaz de prever se um cliente fará uma reclamação de seguro. Visando contribuir para a redução de riscos, o aumento da eficiência operacional e a melhoria geral dos serviços de uma seguradora automotiva.',
+        description: 'This project was developed as part of the Interdisciplinary Projects for Information Systems 3 course at UFRPE. The main objective of this project is to create a dashboard that allows exploring and analyzing a dataset of customers from an automotive insurance company and to develop a Machine Learning model capable of predicting whether a customer will make an insurance claim. Aiming to contribute to risk reduction, increased operational efficiency, and overall improvement of the services of an automotive insurer.',
         icon: GiBrain,
         pjtUrl: 'https://smd-insurancetech.streamlit.app',
         techUsed: 'Python, Streamlit, Pandas, Scikit-Learn.'

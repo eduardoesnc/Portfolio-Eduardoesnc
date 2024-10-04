@@ -18,12 +18,12 @@ function NavMenu({acao}){
                 </div>
 
                 <div className="nav-links">
-                    <a href='#about'>Quem Sou?</a>
-                    <a href='#resume'>Currículo</a>
-                    <a href='#skills'>Habilidades</a>
-                    <a href='#services'>Serviços</a>
-                    <a href='#portfolio'>Portfólio</a>
-                    <a href='#contact'>Contato</a>
+                    <a href='#about'>Who Am I?</a>
+                    <a href='#resume'>Resume</a>
+                    <a href='#skills'>Skills</a>
+                    <a href='#services'>Services</a>
+                    <a href='#portfolio'>Portfolio</a>
+                    <a href='#contact'>Contact</a>
                 </div>
 
                 <div className={active ? "iconNav iconActive" : 'iconNav'} onClick={ToggleMode}>
@@ -32,23 +32,23 @@ function NavMenu({acao}){
             </div>
                 <div className={(active && acao) ? "scrollMenu scrollMenuOpen" : "scrollMenu scrollMenuClose"}>
                     <div className="nav-links-scrollMenu">
-                        <a href='#about'>Quem Sou?</a>
-                        <a href='#resume'>Currículo</a>
-                        <a href='#skills'>Habilidades</a>
-                        <a href='#services'>Serviços</a>
-                        <a href='#portfolio'>Portfólio</a>
-                        <a href='#contact'>Contato</a>
+                        <a href='#about'>Who Am I?</a>
+                        <a href='#resume'>Resume</a>
+                        <a href='#skills'>Skills</a>
+                        <a href='#services'>Services</a>
+                        <a href='#portfolio'>Portfolio</a>
+                        <a href='#contact'>Contact</a>
                     </div>
                 </div>
     
                 <div className={(active && !acao) ? 'menu menuOpen' : 'menu menuClose'}>
                     <div className="nav-links-burguer">
-                        <a href='#about'>Quem Sou?</a>
-                        <a href='#resume'>Currículo</a>
-                        <a href='#skills'>Habilidades</a>
-                        <a href='#services'>Serviços</a>
-                        <a href='#portfolio'>Portfólio</a>
-                        <a href='#contact'>Contato</a>
+                        <a href='#about'>Who Am I?</a>
+                        <a href='#resume'>Resume</a>
+                        <a href='#skills'>Skills</a>
+                        <a href='#services'>Services</a>
+                        <a href='#portfolio'>Portfolio</a>
+                        <a href='#contact'>Contact</a>
                     </div>
                 </div>
             

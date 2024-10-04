@@ -17,26 +17,29 @@ export function QuemSou(){
             </div>
 
             <div className='about-content'>
-                <h3>Quem sou?</h3>
-                <h2>Eu sou Eduardo Estevão, entusiasta das áreas de Front-End e Ciência de Dados</h2>
-                <p>Estudante de Sistemas de Informação na Universidade Federal Rural de Pernambuco (UFRPE) com formação em Técnico em Desenvolvimento de Sistemas. Apaixonado pelas áreas de Front-End e Ciência de Dados, tenho experiência em projetos de desenvolvimento de sistemas, trabalhando em equipe e seguindo metodologias ágeis. Estou aberto a oportunidades de aprendizado e colaboração, pronto para enfrentar novos desafios e fazer a diferença no mundo da tecnologia.</p>
+            <h3>Who am I?</h3>
+            <h2>I am Eduardo Estevão, a Front-End and Data Science Enthusiast</h2>
+            <p>
+                I am a student of Information Systems at the Universidade Federal Rural de Pernambuco (UFRPE), with a background as a Systems Development Technician. Passionate about Front-End and Data Science, I have experience in system development projects, teamwork, and agile methodologies. I am eager to learn, collaborate, and take on new challenges, ready to make a meaningful impact in the world of technology.
+            </p>
+
                 
                 <div className='horizontal-divisor'></div>
 
                 <div className='about-info-containers'>
 
                     <div className='about-info-line'>
-                    <p><span>Nome:</span>Eduardo Estevão</p>
-                    <p><span>Idade:</span> 21</p>
+                    <p><span>Name:</span>Eduardo Estevão</p>
+                    <p><span>Age:</span> 21</p>
                     </div>
 
                     <div className='about-info-line'>
-                    <p><span>De:</span> Recife - PE</p>
+                    <p><span>From:</span> Recife - PE</p>
                     <p><span>Email:</span> eduardoestevaonc@gmail.com</p>
                     </div>
                 </div>
                 <div className="button-wrapper">
-                    <a href="https://drive.google.com/file/d/1uIm6FGV0KzfbiQtb65sWZA5cY4yZ3oOD/view?usp=sharing" target="__blank">Baixar CV</a>
+                    <a href="https://drive.google.com/file/d/1uIm6FGV0KzfbiQtb65sWZA5cY4yZ3oOD/view?usp=sharing" target="__blank">Download CV</a>
                 </div>
             </div>
 

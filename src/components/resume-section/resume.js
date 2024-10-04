@@ -2,77 +2,77 @@ import React from "react";
 
 import './resume.css';
 
-export function Resume(){
+export function Resume() {
     
     return (
         <section className='resume' id="resume">
-        <div className='section-heading'>
-          <h2 className='section-title'>
-            Meu Currículo
-            <span class="title-bg">Currículo</span>
-          </h2>
-        </div>
-
-        <div className='section-card'>
-          <div className='cards-resume'>
-            <p className='title-cards-resume'>Educação</p>
-
-            <div className='card-resume'>
-              <span className='item-arrow'></span>
-              <h5>Bacharelado em Sistemas de Informação</h5>
-              <p className='card-resume-details'>Univesidade Federal Rural de Pernambuco / 2021 - Atualmente</p>
-              <p className='card-resume-description'>
-                Atualmente curso Sistemas de Informação e minhas principais áreas de interesse estão sendo Ciência de
-                Dados e Inteligência Artificial.</p>
+            <div className='section-heading'>
+                <h2 className='section-title'>
+                    My Resume
+                    <span className="title-bg">Resume</span>
+                </h2>
             </div>
 
-            <div className='card-resume'>
-              <span className='item-arrow'></span>
-              <h5>BTEC IT</h5>
-              <p className='card-resume-details'>Bournemouth and Poole College / 2020 - 2020</p>
-              <p className='card-resume-description'>
-                Intercâmbio realizado pelo programa Ganhe o Mundo. Foi onde desenvolvi meu inglês e tive diferentes
-                experiências na área de TI.</p>
+            <div className='section-card'>
+                <div className='cards-resume'>
+                    <p className='title-cards-resume'>Education</p>
+
+                    <div className='card-resume'>
+                        <span className='item-arrow'></span>
+                        <h5>Bachelor's in Information Systems</h5>
+                        <p className='card-resume-details'>Universidade Federal Rural de Pernambuco / 2021 - Present</p>
+                        <p className='card-resume-description'>
+                          I concentrate my studies in the field of Data Science, constantly seeking to improve my
+                          skills in data analysis, Machine Learning, and Artificial Intelligence
+                        </p>
+                    </div>
+
+                    <div className='card-resume'>
+                        <span className='item-arrow'></span>
+                        <h5>BTEC IT</h5>
+                        <p className='card-resume-details'>Bournemouth and Poole College / 2020 - 2020</p>
+                        <p className='card-resume-description'>
+                            Exchange program conducted through the Win the World program. It was where I developed my English
+                            skills and had various experiences in the IT field.</p>
+                    </div>
+
+                    <div className='card-resume'>
+                        <span className='item-arrow'></span>
+                        <h5>Technical in Systems Development</h5>
+                        <p className='card-resume-details'>ETE Advogado José David Gil Rodrigues / 2018 - 2020</p>
+                        <p className='card-resume-description'>
+                            This is where I began my studies in programming and successfully completed an exchange program
+                            at Bournemouth and Poole College in the United Kingdom.</p>
+                    </div>
+
+                </div>
+
+                <div className='cards-resume'>
+                    <p className='title-cards-resume'>Experience</p>
+
+                    <div className='card-resume'>
+                        <span className='item-arrow'></span>
+                        <h5>Project Analyst</h5>
+                        <p className='card-resume-details'>Seed a Bit Tecnologia / 2023 - 2024</p>
+                        <p className='card-resume-description'>
+                            I worked voluntarily as a project analyst at the Júnior Seed A Bit Technology company, where I
+                            played an essential role in the development of collaborative projects. I contributed to the
+                            successful implementation of the E-commerce service in the company, ensuring the integration of
+                            innovative technologies and best practices.</p>
+                    </div>
+
+                    <div className='card-resume'>
+                        <span className='item-arrow'></span>
+                        <h5>Web Developer - Freelancer</h5>
+                        <p className='card-resume-details'>Agência Walsa / 2022 - 2022</p>
+                        <p className='card-resume-description'>
+                            I developed and maintained websites for important clients of the agency, utilizing skills in
+                            programming and design in collaboration with the team. These experiences enhanced my web
+                            development, digital marketing, and personalized customer service skills.</p>
+                    </div>
+
+                </div>
             </div>
-
-            <div className='card-resume'>
-              <span className='item-arrow'></span>
-              <h5>Técnico em Desenvolvimento de Sistemas</h5>
-              <p className='card-resume-details'>ETE Advogado José David Gil Rodrigues / 2018 - 2020</p>
-              <p className='card-resume-description'>
-                Onde comecei meus estudos em programação e consegui realizar um intercâmbio para Bournemouth and Poole
-                College, no Reino Unido.</p>
-            </div>
-
-          </div>
-
-          <div className='cards-resume'>
-            <p className='title-cards-resume'>Experiência</p>
-
-            <div className='card-resume'>
-              <span className='item-arrow'></span>
-              <h5>Analista de Projetos</h5>
-              <p className='card-resume-details'>Seed a Bit Tecnologia / 2023 - 2024</p>
-              <p className='card-resume-description'>
-                Trabalhei voluntariamente como analista de projetos na empresa
-                Júnior Seed A Bit Tecnologia, onde desempenhei um papel essencial no desenvolvimento de projetos
-                colaborativos. Contribuí para a implementação bem-sucedida do serviço de E-commerce na empresa,
-                garantindo a integração de tecnologias inovadoras e das melhores práticas.</p>
-            </div>
-
-            <div className='card-resume'>
-              <span className='item-arrow'></span>
-              <h5>Desenvolvedor Web - Freelancer</h5>
-              <p className='card-resume-details'>Agência Walsa / 2022 - 2022</p>
-              <p className='card-resume-description'>
-                Desenvolvi e mantive sites para clientes importantes da agência, utilizando habilidades em programação e
-                design em colaboração com a equipe. Essas experiências aprimoraram minha capacidade de desenvolvimento
-                web, marketing digital e atendimento personalizado ao cliente.</p>
-            </div>
-
-          </div>
-        </div>
-
-      </section>
+        </section>
     );
 }

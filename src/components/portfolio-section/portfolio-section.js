@@ -24,12 +24,12 @@ const Modal = ({ project, closeModal }) => {
             <div className='project-info-containers'>
 
                     <div className='project-info-line'>
-                    <p><span>Tecnologias Utilizadas:</span>{project.techUsed}</p>
+                    <p><span>Technologies Used:</span>{project.techUsed}</p>
                     </div>
 
                 </div>
             <div className="button-wrapper-modal">
-                <a href={project.pjtUrl} target="__blank">Visitar projeto</a>
+                <a href={project.pjtUrl} target="__blank">Visit Project</a>
             </div>
           </div>
         </div>
@@ -68,8 +68,8 @@ export function PortfolioSection(){
     <section className='portfolio' id="portfolio">
         <div className='section-heading'>
           <h2 className='section-title'>
-            Meu Portfólio
-            <span class="title-bg">Portfólio</span>
+            My Portfolio
+            <span class="title-bg">Portfolio</span>
           </h2>
         </div>
 
@@ -77,7 +77,7 @@ export function PortfolioSection(){
             <p 
                 style={isPortfolioSelected('All')} 
                 onClick={() => setPortfolioSel('All')}>
-                Todos
+                All
             </p>
 
             <p 
@@ -95,7 +95,7 @@ export function PortfolioSection(){
             <p 
                 style={isPortfolioSelected('Dados')} 
                 onClick={() => setPortfolioSel('Dados')}>
-                Dados
+                Data
             </p>
         </div>
 
@@ -109,7 +109,7 @@ export function PortfolioSection(){
                         <div className='portfolio-item-content'>
                         <i>{renderProjectIcon(project.icon)}</i>
                         <h6 className='content-title'>{project.name}</h6>
-                        <span className='quick-view'>Ver mais</span>
+                        <span className='quick-view'>See more</span>
                         </div>
                     </div>
                     </p>
