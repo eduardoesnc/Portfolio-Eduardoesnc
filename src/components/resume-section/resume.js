@@ -49,11 +49,23 @@ export function Resume() {
 
                 <div className='cards-resume'>
                     <p className='title-cards-resume'>Experience</p>
+                    
+                    <div className='card-resume'>
+                        <span className='item-arrow'></span>
+                        <h5>Jr. Full Stack Developer</h5>
+                        <p className='card-resume-details'>Engenharia de Alta Perfomance / Aug 2024 - Present</p>
+                        <p className='card-resume-description'>
+                        I developed and refactored the GoBuilder platform, focusing on UX, performance, and scalability 
+                        using Next.js, Nest.js, MySQL, AWS, Material UI, and TypeScript. I implemented modern features 
+                        (file uploads, quotations, reports, dashboards, and PDFs), optimized legacy code with Clean Code
+                        principles, and achieved a 50% reduction in response times. The work was carried out in an agile
+                        environment using Scrum.</p>
+                    </div>
 
                     <div className='card-resume'>
                         <span className='item-arrow'></span>
                         <h5>Project Analyst</h5>
-                        <p className='card-resume-details'>Seed a Bit Tecnologia / 2023 - 2024</p>
+                        <p className='card-resume-details'>Seed a Bit Tecnologia / Aug 2023 - Apr 2024</p>
                         <p className='card-resume-description'>
                             I worked voluntarily as a project analyst at the Júnior Seed A Bit Technology company, where I
                             played an essential role in the development of collaborative projects. I contributed to the
@@ -64,7 +76,7 @@ export function Resume() {
                     <div className='card-resume'>
                         <span className='item-arrow'></span>
                         <h5>Web Developer - Freelancer</h5>
-                        <p className='card-resume-details'>Agência Walsa / 2022 - 2022</p>
+                        <p className='card-resume-details'>Agência Walsa / Fev 2022 - Dec 2022</p>
                         <p className='card-resume-description'>
                             I developed and maintained websites for important clients of the agency, utilizing skills in
                             programming and design in collaboration with the team. These experiences enhanced my web

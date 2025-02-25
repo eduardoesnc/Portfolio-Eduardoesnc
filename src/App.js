@@ -7,7 +7,7 @@ import {PortfolioSection} from './components/portfolio-section/portfolio-section
 import NavMenu from "./components/nav-menu/nav-menu";
 import {BackgroundLines} from './components/background/background';
 import {SocialLinks} from './components/social-links/social-links';
-// import {Banner} from './components/banner/banner';
+import {Banner} from './components/banner/banner';
 import {Header} from './components/header/header';
 import { QuemSou } from "./components/about-section/about";
 import { Resume } from "./components/resume-section/resume";
@@ -58,7 +58,7 @@ function App() {
 
       <Services/>
 
-      {/* <Banner/> */}
+      <Banner/>
         
       <PortfolioSection/>
 

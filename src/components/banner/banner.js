@@ -41,7 +41,7 @@ export function Banner(){
                 <div className='banner-container'>
                     <div className='banner-part'>
                         <div className='banner-part-content'>
-                        <p>5<span>+</span></p>
+                        <p>8<span>+</span></p>
                         </div>
                     </div>
 
